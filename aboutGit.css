@@ -1,4 +1,93 @@
 #wrapper{
-    margin: 10px;
+    padding: 10px;
     background-color: #ddd;
+    max-width: 1080px;
+}
+.header{
+    background-color: turquoise;
+}
+.title{
+    display: inline;
+    padding: 10px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+.menu{
+    display: inline;
+    padding: 10px;
+}
+.menu{
+    margin-left: 200px;
+}
+.menuItem{
+    display: inline;
+    margin-right: 10px;
+    list-style-type: none;
+    vertical-align: center;
+    text-align: right;
+
+}
+.menuItem a{
+    color: #fff;
+    text-align: right;
+}
+p{
+    margin-left: 10px;
+}
+.body{
+    margin: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+.sideNav{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: slategray;
+    color: #fff;
+    max-width: 200px;
+}
+.mainBody{
+    display: inline-block;
+    color: #fff;
+    vertical-align: top;
+}
+.top{
+}
+.small{
+    display: inline-block;
+    max-width: 220px;
+    min-height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: slategray;
+    vertical-align: top;
+}
+.middle{
+}
+.medium{
+    display: inline-block;
+    max-width: 352px;
+    min-height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: slategray;
+    vertical-align: top;
+}
+.bottom{
+    display: inline-block;
+    max-width: 750px;
+    min-height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: slategray;
+    vertical-align: top;
+}
+.footer{
+    display: inline-block;
+    background-color: turquoise;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 95%;
 }

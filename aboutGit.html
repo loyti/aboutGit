@@ -9,13 +9,13 @@
     <body>
         <div id="wrapper">
             <div class="header">
-                <img class="title" src="https://github.com/loyti/aboutGit/blob/master/github-icon.png?raw=true" width=50 height=50>
+                <img class="title" src="https://github.com/loyti/aboutGit/blob/master/githubIcon.png?raw=true" width=50 height=50>
                 <h1 class="title">Git Basics</h1>
-                <ul class="title">
-                    <li><a href="#">What is git?</a></li>
-                    <li><a href="#">What is Github?</a></li>
-                    <li><a href="#">How do you use git and Github?</a></li>
-                    <li><a href="#">More resources</a></li>
+                <ul class="menu">
+                    <li class="menuItem"><a href="#">What is git?</a></li>
+                    <li class="menuItem"><a href="#">What is Github?</a></li>
+                    <li class="menuItem"><a href="#">How do you use git and Github?</a></li>
+                    <li class="menuItem"><a href="#">More resources</a></li>
                 </ul>
             </div>
             <div class="body">
@@ -23,11 +23,40 @@
                     <h2 class="about">What is Git?</h2>
                     <p>Git is a version control system; you can think of it as a series of snapshots (commits) of your code base. With the creation of each snapshot you build out a whole application, seeing the growth of a full app. During this time you can make branches to experiment and come back to a previous snapshots you took or merge those experiments into the app.</p>
                     <h2 class="about">What is GitHub?</h2>
-                    <p>GitHub is a code 
+                    <p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere using those code snapshots that you took during development.</p>
                 </div>
                 <div class="mainBody">
+                    <div class="top">
+                        <div class="small">
+                            <h3>Git init</h3>
+                            <p><span class="highlight">Git init</span> is the act of registering this current code base.</p>
+                        </div>
+                        <div class="small">
+                            <h3>Git add</h3>
+                            <p><span class="highlight">Git add</span> is how we stage the integration of our current code base into our current list of snapshots.</p>
+                        </div>
+                        <div class="small">
+                            <h3>Git status</h3>
+                            <p><span class="highlight">Git status</span> allows us to see the changes we are going to make.</p>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <div class="medium">
+                            <h3>Git commit</h3>
+                            <p><span class="highlight">Git commit</span>; finally we can commit those changes we added to our last snapshot giving us a new snapshot of our code with whatever new changes were made.</p>
+                        </div>
+                        <div class="medium">
+                            <h3>Git remote add</h3>
+                            <p><span class="highlight">Git remote add</span> is used to set up an online repository where we can place all of our current code. This is where the outside world can see our code base.</p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h3>Git push</h3>
+                        <p><span class="highlight">Git push</span> is how we get our code to Github, an excellent place to store all of our repositories. Other develpers might look at our existing projects to see how we approached problems, pull down our code and add new features or even update our code base with features they wanted to add.</p>
+                    </div>
                 </div>
             </div>
+            <p class="footer">You can learn more about Git and GitHub here: <a href="#">GitHub Guides</a></p>
         </div>
     </body>
 </html>
