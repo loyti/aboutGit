@@ -1,10 +1,13 @@
+*{
+    font-family: Courier New, Courier, monospace;
+}
 #wrapper{
     padding: 10px;
     background-color: #ddd;
     max-width: 1080px;
 }
 .header{
-    background-color: turquoise;
+    background-color: #5daeac;
 }
 .title{
     display: inline;
@@ -16,28 +19,25 @@
     display: inline;
     padding: 10px;
 }
-.menu{
-    margin-left: 250px;
-}
 .menuItem{
     display: inline;
     margin-right: 10px;
     list-style-type: none;
     vertical-align: center;
     text-align: right;
-
 }
-.menuItem a{
-    color: #fff;
-    text-align: right;
-}
+    .menuItem a{
+        color: #fff;
+        text-align: right;
+    }
 p{
     margin-left: 10px;
 }
 .body{
     margin: 10px;
-    background-color: yellow;
+    background-color: #f8e69c;
     padding: 10px;
+    margin: 10px 0px 10px 0px;
 }
 .sideNav{
     display: inline-block;
@@ -45,38 +45,34 @@ p{
     margin: 10px 10px;
     background-color: slategray;
     color: #fff;
-    max-width: 200px;
+    max-width: 250px;
 }
 .mainBody{
     display: inline-block;
     color: #fff;
     vertical-align: top;
 }
-.top{
-}
 .small{
     display: inline-block;
-    max-width: 220px;
-    min-height: 150px;
+    max-width: 200px;
+    min-height: 200px;
     margin: 10px;
     padding: 10px;
     background-color: slategray;
     vertical-align: top;
 }
-.middle{
-}
 .medium{
     display: inline-block;
-    max-width: 352px;
+    max-width: 325px;
     min-height: 150px;
-    margin: 10px;
+    margin: 23px 10px 23px 10px;
     padding: 10px;
     background-color: slategray;
     vertical-align: top;
 }
 .bottom{
     display: inline-block;
-    max-width: 750px;
+    max-width: 700px;
     min-height: 150px;
     margin: 10px;
     padding: 10px;
@@ -85,9 +81,13 @@ p{
 }
 .footer{
     display: inline-block;
-    background-color: turquoise;
-    margin: 10px;
+    background-color: #5daeac;
     padding: 15px;
     text-align: center;
-    width: 95%;
+    width: 97%;
+    margin: 0px 0px 0px 0px;
+}
+.highlight{
+    color: #5daeac;
+    font-weight: bolder;
 }
